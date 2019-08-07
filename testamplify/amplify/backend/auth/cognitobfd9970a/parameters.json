@@ -1,0 +1,25 @@
+{
+    "identityPoolName": "testamplify_identitypool_4106e96d",
+    "allowUnauthenticatedIdentities": true,
+    "openIdLambdaRoleName": "testam4106e96d_openid_lambda_role",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognitobfd9970a",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}

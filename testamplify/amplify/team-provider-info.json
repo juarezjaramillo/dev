@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "testamplify-dev-20190805080001-authRole",
+            "UnauthRoleArn": "arn:aws:iam::252849302246:role/testamplify-dev-20190805080001-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::252849302246:role/testamplify-dev-20190805080001-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "testamplify-dev-20190805080001-deployment",
+            "UnauthRoleName": "testamplify-dev-20190805080001-unauthRole",
+            "StackName": "testamplify-dev-20190805080001",
+            "StackId": "arn:aws:cloudformation:us-east-1:252849302246:stack/testamplify-dev-20190805080001/f04d3780-b780-11e9-9bda-0a82639e0346"
+        },
+        "categories": {
+            "auth": {
+                "cognitobfd9970a": {}
+            }
+        }
+    }
+}
